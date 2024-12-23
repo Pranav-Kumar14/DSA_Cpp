@@ -76,7 +76,7 @@ int main(){
     cout << "Smallest element : "<< smallest(arr, n) <<endl;
     cout << "Second largest element : " << secondLargest(arr, n) << endl;
     cout << "Second smallest element : " << secondSmallest(arr, n) << endl;
-    string sorted = isSorted? "Yes" : "No";
+    string sorted = &isSorted? "Yes" : "No";
     cout << "Array Sorted : " << sorted <<endl;
     int k = removeDupes(arr, n);
     cout << "Array after removing the duplicates is : " <<endl;
