@@ -38,13 +38,13 @@ int main() {
     cout << "Enter the number of rows and columns of the matrix: ";
     cin >> n >> m;
 
-    if (n <= 0 || m <= 0) { // Input validation
+    if (n <= 0 || m <= 0) {
         cout << "Invalid matrix dimensions!" << endl;
         return 0;
     }
 
     cout << "Enter the elements of the array:" << endl;
-    vector<vector<int>> matrix(n, vector<int>(m)); // Use fixed size for the matrix
+    vector<vector<int>> matrix(n, vector<int>(m));
 
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
